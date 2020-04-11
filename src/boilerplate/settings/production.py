@@ -1,6 +1,6 @@
 from .base import *
 
-DEBUG = False
+DEBUG = config('DEBUG', cast=bool)
 ALLOWED_HOSTS = [ 'ip-address', 'www.yourwebsite.com']
 
 AUTH_PASSWORD_VALIDATORS = [
@@ -13,10 +13,10 @@ AUTH_PASSWORD_VALIDATORS = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.backends.postgresql_psycopg2',
-        'NAME': 'your-db-name',
-        'USER': 'your-db-user-name',
-        'PASSWORD': 'your-db-password',
-        'HOST': 'localhost',
+        'NAME': config('DB_NAME'),
+        'USER': config('DB_USER'),
+        'PASSWORD': config('DB_PASSWORD'),
+        'HOST': config('DB_HOST'),
         'PORT': ''
     }
 }
