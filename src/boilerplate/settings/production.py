@@ -21,5 +21,5 @@ DATABASES = {
     }
 }
 
-STRIPE_PUBLIC_KEY = 'your-live-public-key'
-STRIPE_SECRET_KEY = 'your-live-secret-key'
+STRIPE_PUBLIC_KEY = 'STRIPE_PUBLIC_KEY'
+STRIPE_SECRET_KEY = 'STRIPE_SECRET_KEY'
