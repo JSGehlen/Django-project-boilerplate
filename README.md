@@ -6,9 +6,9 @@ Repo can be cloned and renamed with ```python manage.py rename YourChosenName```
 
 ## Installation: 
 
-1: Run ```pip3 install -r requirements.txt``` to install the requirements for this project
-2: Create a folder called "static_in_env" in the src folder
-3: Create a .env to the root folder of this project. This file will contain the following:
+* Run ```pip3 install -r requirements.txt``` to install the requirements for this project
+* Create a folder called "static_in_env" in the src folder
+* Create a .env to the root folder of this project. This file will contain the following:
 
 ```
 SECRET_KEY=yoursecretkey
@@ -23,7 +23,7 @@ STRIPE_SECRET_KEY = 'your-live-secret-key'
 
 The SECRET_KEY is a 32 character long string that is usually located in ```settings.py```, but since this project has ```base.py``` and a ```.env``` file, this key is not visible anywhere.
 
-4: Create the ```SECRET_KEY``` by running the following ``` python manage.py shell```
+* Create the ```SECRET_KEY``` by running the following ``` python manage.py shell```
 Then type the following commands:
 
 ```
