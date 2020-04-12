@@ -32,6 +32,6 @@ get_random_secret_key()
 '[GENERATED KEY]'
 ```
 
-Once you have the ```SECRET_KEY```, copy paste it to the ```.env``` file and run ```python manage.py migrate``` to apply the correct migrations.
+* Once you have the ```SECRET_KEY```, copy paste it to the ```.env``` file and run ```python manage.py migrate``` to apply the correct migrations.
 
-After this you should be good to go and continue with your project
+ * After this you should be good to go and continue with your project
