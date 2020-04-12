@@ -3,7 +3,7 @@
 This is a boilerplate I created for starting Django projects.
 
 Repo can be cloned and renamed with "python manage.py rename YourChosenName"
-
+### NOTE: You must create a folder called "static_in_env" in the src folder
 ### NOTE: You must create a .env to the root folder of this project. This file will contain the following:
 
 ```
